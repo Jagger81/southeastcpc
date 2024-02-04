@@ -48,6 +48,14 @@
     }
   });
 
+
+  //modal positioning:
+  $('#CPCModal').appendTo("body");
+  $('#TMModal').appendTo("body");
+  $('#TSModal').appendTo("body");
+  $('#LSModal').appendTo("body");
+
+
   // Mobile Navigation
   if ($('.nav-menu').length) {
     var $mobile_nav = $('.nav-menu').clone().prop({
