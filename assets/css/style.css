@@ -1544,6 +1544,35 @@ section {
   text-decoration: none;
 }
 
+
+@media (max-width: 767px) {
+  #RSA_QR, #CILT_QR, #HSA_QR {
+    max-height: 50%;
+  }
+  #footer .footer-qr{
+    text-align: center;
+}
+#footer .footer-contact{
+  text-align: center;
+}
+}
+
+#RSA_QR {
+  max-width: 60%;
+}
+
+#CILT_QR {
+  max-width: 60%;
+}
+
+#HSA_QR {
+  max-width: 60%;
+}
+
+/* footer end*/
+
+/* covid row start*/
+
 #covid_row{
   background-color: #00664b;
   color: white;
@@ -1564,6 +1593,10 @@ section {
   max-width: 25%;
   padding: 20px;
 }
+
+/* covid row end*/
+
+/* video styling start*/
 
 @media (min-width: 767px) {
   #watch_video_button, #rsa_logo, #idha_logo, #virtual_msg_small {
@@ -1606,6 +1639,8 @@ section {
   border-radius: 6px;
   margin-left: 10px;
 }
+
+/* video styling end*/
 
 /* accordian styling start*/
 
