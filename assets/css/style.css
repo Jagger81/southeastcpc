@@ -501,6 +501,7 @@ section {
   margin-bottom: 0;
 }
 
+
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
@@ -557,7 +558,7 @@ section {
 
 .about .content ul i {
   left: 0;
-  top: 7px;
+  top: 13px;
   position: absolute;
   font-size: 20px;
   color: #009970;
